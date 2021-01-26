@@ -40,6 +40,7 @@ Widget.Content = styled.div`
   p {
     font-size: 15px;
     line-height: 18px;
+    margin-bottom: 30px;
   }
   & > *:first-child {
     margin-top: 0;
@@ -61,6 +62,7 @@ Widget.Input = styled.input`
   border-radius: 5px;
   font-size: 15px;
   padding:5px;
+  margin-bottom: 35px;
   color: #fff;
   transition: 300ms;
 
@@ -69,17 +71,37 @@ Widget.Input = styled.input`
   }
 `;
 
-Widget.Button = styled.button`
-  width: 281px;
-  height: 40px;
+Widget.ButtonLink = styled.a`
   margin-top: 20px;
   background: ${({ theme }) => theme.colors.primary};
   border: none;
   border-radius: 5px;
   font-size: 18px;
-  padding:5px;
+  margin: auto;
+  padding:10px 108px;
   color: #fff;
   font-weight: bold;
+  transition: 300ms;
+  cursor: pointer;
+
+  &:hover {
+    background: ${({ theme }) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.mainBg};
+  }
+`;
+
+Widget.Link = styled.a`
+  width: 281px;
+  height: 30px;
+  display: flex;
+  text-decoration: none;
+  margin-top: 15px;
+  background: ${({ theme }) => theme.colors.primary};
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding:6px 10px;  
+  color: #fff;
   transition: 300ms;
 
   &:hover {

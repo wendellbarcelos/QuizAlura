@@ -31,25 +31,15 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>{db.title}</h1>
+            <h1>1 de 5 Perguntas</h1>
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
             <Widget.Input type="text" placeholder="Diz ai seu nome para jogar!"></Widget.Input> 
-            <Widget.ButtonLink>JOGAR</Widget.ButtonLink>
+            <Widget.Button type="submit">JOGAR</Widget.Button>
           </Widget.Content>
         </Widget>
 
-        <Widget>
-          <Widget.Content>
-            <h1>Quizes da Galera</h1>
-
-            <p>Dá uma olhada nesse quizes incríveis que o pessoa da Imersão React fez:</p>
-            <Widget.Link href="https://github.com/LucasKetelhut/aluraQuiz" target="_blank">LucasKetelhut/aluraQuiz</Widget.Link>
-            <Widget.Link href="https://github.com/LeonardoT07/aluraquiz-coffee" target="_blank">LeonardoT07/aluraquiz-coffee</Widget.Link>
-            <Widget.Link href="https://github.com/TheeDouglasAM3/pato-quiz-nextjs" target="_blank">TheeDouglasAM3/pato-quiz-nextjs</Widget.Link>
-          </Widget.Content>
-        </Widget>
         <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/wendellbarcelos" />
