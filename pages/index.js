@@ -35,6 +35,8 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
+            <Widget.Input type="text" placeholder="Diz ai seu nome para jogar!"></Widget.Input> 
+            <Widget.Button type="submit">JOGAR</Widget.Button>
           </Widget.Content>
         </Widget>
 
@@ -42,7 +44,7 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <p>Dá uma olhada nesse quizes incríveis que o pessoa da Imersão React fez:</p>
           </Widget.Content>
         </Widget>
         <Footer />

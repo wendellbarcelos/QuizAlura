@@ -36,6 +36,11 @@ Widget.Header = styled.header`
 
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
+  
+  p {
+    font-size: 15px;
+    line-height: 18px;
+  }
   & > *:first-child {
     margin-top: 0;
   }
@@ -45,6 +50,41 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+`;
+
+Widget.Input = styled.input`
+  width: 281px;
+  height: 40px;
+  background: none;
+  border: 1px solid ${({ theme }) => theme.colors.primary};
+  border-radius: 5px;
+  font-size: 15px;
+  padding:5px;
+  color: #fff;
+  transition: 300ms;
+
+  &:hover {
+    border: 1px solid ${({ theme }) => theme.colors.secondary};
+  }
+`;
+
+Widget.Button = styled.button`
+  width: 281px;
+  height: 40px;
+  margin-top: 20px;
+  background: ${({ theme }) => theme.colors.primary};
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding:5px;
+  color: #fff;
+  font-weight: bold;
+  transition: 300ms;
+
+  &:hover {
+    background: ${({ theme }) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.mainBg};
   }
 `;
 
