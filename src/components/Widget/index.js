@@ -55,7 +55,8 @@ Widget.Content = styled.div`
 `;
 
 Widget.Input = styled.input`
-  width: 281px;
+  width: 100%;
+  max-width: 350px;
   height: 40px;
   background: none;
   border: 1px solid ${({ theme }) => theme.colors.primary};
@@ -66,12 +67,15 @@ Widget.Input = styled.input`
   color: #fff;
   transition: 300ms;
 
+
   &:hover {
     border: 1px solid ${({ theme }) => theme.colors.secondary};
   }
 `;
 
 Widget.ButtonLink = styled.a`
+  width: 100%;
+  max-width: 350px;
   margin-top: 20px;
   background: ${({ theme }) => theme.colors.primary};
   border: none;
@@ -84,6 +88,11 @@ Widget.ButtonLink = styled.a`
   transition: 300ms;
   cursor: pointer;
 
+  @media screen and (max-width: 500px) {
+    margin: auto;
+    padding: 15px 95px;
+  }
+
   &:hover {
     background: ${({ theme }) => theme.colors.secondary};
     color: ${({ theme }) => theme.colors.mainBg};
@@ -91,7 +100,8 @@ Widget.ButtonLink = styled.a`
 `;
 
 Widget.Link = styled.a`
-  width: 281px;
+  width: 100%;
+  max-width: 350px;
   height: 30px;
   display: flex;
   text-decoration: none;
@@ -103,6 +113,10 @@ Widget.Link = styled.a`
   padding:6px 10px;  
   color: #fff;
   transition: 300ms;
+
+  @media screen and (max-width: 500px) {
+    font-size: 14px;
+  }
 
   &:hover {
     background: ${({ theme }) => theme.colors.secondary};
