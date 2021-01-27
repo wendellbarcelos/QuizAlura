@@ -3,26 +3,64 @@
     "title": "Naruto Quiz",
     "description": "Teste os seus conhecimentos e torne-se um ninja da aldeia da folha!",
     "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+      {  
+        "image": "https://narutolegendsbinc.weebly.com/uploads/2/2/8/6/22863494/1389942_orig.gif",
+        "title": "Qual seria o número da equipe kakashi?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 4,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Time 10",
+          "Time 3",
+          "Time 9",
+          "Time 7"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://i.pinimg.com/originals/3b/80/6d/3b806ddc28dffbdf844cf527e72f3693.gif",
+        "title": "Sarutobi Azuma foi morto por quem na temporada Shippuuden?",
+        "description": "Agora quero ver",
+        "answer": 3,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+            "Deidara",
+            "Sasuke",
+            "Hidan",
+            "Gaara"
+        ]
+      },
+      {  
+        "image": "https://i.pinimg.com/originals/54/e0/83/54e083f847af4a70acff7ceeb82a3483.gif",
+        "title": "Quando Naruto e Sasuke brigaram, Naruto antes de perder a luta deixou algo na bandana de Sasuke, o que foi?",
+        "description": "Essa vai errar!",
+        "answer": 1,
+        "alternatives": [
+          "Deixou um risco reto",
+          "Deixou uma estrela",
+          "Deixou 6 gotas de sangue",
+          "Deixou a bandana toda cortada"
+        ]
+      },
+      {  
+        "image": "https://i.pinimg.com/originals/34/dd/a2/34dda23310999ec726f72cb104f099a0.gif",
+        "title": "Quem lutou e derrotou o Sasori?",
+        "description": "Eita luta boa",
+        "answer": 2,
+        "alternatives": [
+          "Tsunade e Kankuro",
+          "Sakura e Chiyo-baa",
+          "Gaara e TenTen",
+          "Naruto e Kakashi"
+        ]
+      },
+      {  
+        "image": "https://d.wattpad.com/story_parts/930299784/images/16275774032b3376163929186698.gif",
+        "title": "aara foi capturado por quais integrantes da Akatisuke?",
+        "description": "Vamos ver essa",
+        "answer": 3,
+        "alternatives": [
+          "Gaara nunca foi capturado",
+          "Itachi e kizame",
+          "Sasori e Deidara",
+          "Pein e Konan"
         ]
       }
     ],

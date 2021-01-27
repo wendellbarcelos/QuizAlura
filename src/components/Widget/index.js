@@ -5,8 +5,8 @@ const Widget = styled.div`
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => {
-    return theme.colors.mainBg;
-  }};
+        return theme.colors.mainBg;
+    }};
   border-radius: 4px;
   overflow: hidden;
   h1, h2, h3 {
@@ -28,11 +28,14 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.mainBg};
   
   * {
     margin: 0;
   }
+
 `;
+
 
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
@@ -52,51 +55,7 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
-`;
 
-Widget.Input = styled.input`
-  width: 100%;
-  max-width: 350px;
-  height: 40px;
-  background: none;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
-  border-radius: 5px;
-  font-size: 15px;
-  padding:5px;
-  margin-bottom: 35px;
-  color: #fff;
-  transition: 300ms;
-
-
-  &:hover {
-    border: 1px solid ${({ theme }) => theme.colors.secondary};
-  }
-`;
-
-Widget.ButtonLink = styled.a`
-  width: 100%;
-  max-width: 350px;
-  margin-top: 20px;
-  background: ${({ theme }) => theme.colors.primary};
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  margin: auto;
-  padding:10px 108px;
-  color: #fff;
-  font-weight: bold;
-  transition: 300ms;
-  cursor: pointer;
-
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px 95px;
-  }
-
-  &:hover {
-    background: ${({ theme }) => theme.colors.secondary};
-    color: ${({ theme }) => theme.colors.mainBg};
-  }
 `;
 
 Widget.Link = styled.a`
@@ -121,6 +80,38 @@ Widget.Link = styled.a`
   &:hover {
     background: ${({ theme }) => theme.colors.secondary};
     color: ${({ theme }) => theme.colors.mainBg};
+  }
+`;
+
+
+Widget.Button = styled.button`
+  width: 100%;
+  max-width: 350px;
+  height: 30px;
+  background: ${({ theme }) => theme.colors.secondary};
+  border-radius: 5px;
+  font-size: 15px;
+  padding:5px;
+  margin-bottom: 25px;
+  color: #fff;
+
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
 `;
 
