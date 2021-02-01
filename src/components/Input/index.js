@@ -12,12 +12,9 @@ const InputBase = styled.input`
   font-size: 15px;
   padding:5px;
   margin-bottom: 35px;
-  color: #fff;
-  transition: 300ms;
-
-
-  &:hover {
-    border: 1px solid ${({ theme }) => theme.colors.secondary};
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: ${({ theme }) => theme.colors.contrastText}DD;
+    opacity: 1; /* Firefox */
   }
 `;
 
@@ -27,7 +24,7 @@ export default function Input({ onChange, placeholder, ...props }) {
             <InputBase
                 placeholder={placeholder}
                 onChange={onChange}
-                {...props} 
+                {...props}
             />
         </div>
     )

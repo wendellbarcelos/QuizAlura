@@ -28,7 +28,7 @@
         ]
       },
       {  
-        "image": "https://i.pinimg.com/originals/54/e0/83/54e083f847af4a70acff7ceeb82a3483.gif",
+        "image": "https://i.pinimg.com/originals/75/8c/d1/758cd1a49f0371d3a0a86f9cee9a3595.gif",
         "title": "Quando Naruto e Sasuke brigaram, Naruto antes de perder a luta deixou algo na bandana de Sasuke, o que foi?",
         "description": "Essa vai errar!",
         "answer": 0,
@@ -53,7 +53,7 @@
       },
       {  
         "image": "https://d.wattpad.com/story_parts/930299784/images/16275774032b3376163929186698.gif",
-        "title": "aara foi capturado por quais integrantes da Akatisuke?",
+        "title": "Gaara foi capturado por quais integrantes da Akatisuke?",
         "description": "Vamos ver essa",
         "answer": 2,
         "alternatives": [
@@ -65,7 +65,8 @@
       }
     ],
     "external": [
-      ""
+        "https://aluraquiz-css.omariosouto.vercel.app/",
+        "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
